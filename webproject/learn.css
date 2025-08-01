@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 100px;
+    gap: 100px;
+}
+
+/* brand name */
+header .logo{
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 0 px;
+    padding: 8px 4px;
+    transition: color 0.3s ease;
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    color:#0f172a;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.1s ease;
+}
+
+ul li a:hover{
+    color: #1e90ff;
+}
+
+/* login & join us button */
+.auth{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.auth .buts{
+    color: #ffffffff;
+    text-decoration: none;
+    padding: 8px 4px;
+    transition: color 0.1s ease;
+}
+
+.auth .buts:hover{
+    background-color: #1e90ff;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 3px;
+
+}
+
+/* hero section */
+ h4{
+    font-size: 15px;
+    margin: 20px;
+    color: #1e90ff;
+ }
+
+ h1{
+    font-size: 60px;
+    margin: 20px;
+    color: #ffffff;
+ }
+
+ .hero p{
+    font-size: 18px;
+    margin:  0 30px 0 30px;
+    color: #ffffff;
+ }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1e90ff;
+    border: 1px solid #1e90ff;
+    border-radius: 3px;
+    transition: background-color 0.1s ease;
+}
+.btn:hover{
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+/* courses */
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* course card */
+.courses-card{
+    background-color: #ffffff;
+    color: #0f172a;
+    padding: 20px;
+    height: 250px;
+    width: 250px;
+    transition: transform 0.1s ease;
+    margin: 30px;
+}
+
+h3{
+    text-align: left;
+    font-size: 20px;
+    color: #0f172a;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.text{
+    text-align: left;
+    font-size: 15px;
+    color: #0f172a;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
